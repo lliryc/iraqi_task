@@ -1,3 +1,6 @@
+iraqi_videos_6mins/
+iraqi_videos_transcripts/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -169,3 +172,17 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+output/
+*.wav
+iraqi_videos_texts/
+iraqi_videos_texts_check/
+iraqi_videos_texts2/
+iraqi_channels_videos/
+iraqi_videos_6mins/
+iraqi_videos_transcripts/
+iraqi_videos_texts_punct_corrected/
+iraqi_passages/
+iraqi*
+nohup*
+*.whl
+google_api_credentials*.json
