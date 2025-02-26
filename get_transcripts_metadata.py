@@ -52,7 +52,7 @@ def presample_videos(sample_size):
         #df = df[df['duration_in_sec'] >= 360]
 
         # Step 3: Filter out videos with upload_date earlier than 5 months ago
-        n_months_ago = datetime.now() - timedelta(days=3 * 30)  # Approximate 5 months as 150 days
+        n_months_ago = datetime.now() - timedelta(days=6 * 30)  # Approximate 5 months as 150 days
         df = df[df['upload_date'] >= n_months_ago]
         
         if len(df) > sample_size:

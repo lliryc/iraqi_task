@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "gulf-task"
-version = "0.1.0"
+name = "iraqi-task"
+version = "0.1.1"
 description = ""
 authors = ["Kirill Chirkunov <kirill.chirkunov@gmail.com>"]
 package-mode = false
